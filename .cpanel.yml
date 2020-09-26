@@ -1,0 +1,5 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/apeiroca/public_html/tareqmonwer
+        - /bin/cp -R * $DEPLOYPATH
